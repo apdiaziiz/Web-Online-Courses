@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&family=Ubuntu:wght@300;400;500&display=swap');
+
+:root {
+  --fullgreen : #2c8f78;
+  --green : #45B69C;
+  --graygreen : #45B69C;
+  --lightstategray : #7293A0;
+  --gray: #A0A4B8;
+  --aqua : #3DFAFF;
+  --myrtle-green : #3D7068;
+  --full-myrtle-green : #14453D;
+  --ocean-green: #43C59E;
+  --light-black: #333;
+  --white: #fff;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.btn {
+  border: 2px solid #fff;
+  padding: 6px 14px;
+  border-radius: 5px;
+}
+.title {
+  font-size: 1.9rem;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+  padding-bottom: 30px;
+  color: var(--full-myrtle-green);
+}
+section {
+  width: 100%;
+  height: 87vh;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .form-content {
+  width: 400px;
+  height: 75vh;
+  margin: 0 auto;
+  color: #000;
+  box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.2);
+  /* background-color: var(--full-myrtle-green); */
+  border-radius: 10px;
+}
+.register-form .form-content .flex {
+  display: flex;
+}
+section .form-content .form-title {
+  font-size: 1.7rem;
+  text-align: center;
+  padding-top: 30px;
+}
+section .form-content form {
+  padding-top: 30px;
+}
+section .form-content .form-control {
+  padding: 0 30px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+section .form-content .form-login-control label {
+  display: block;
+}
+
+section .form-content .form-control input {
+  padding: 10px;
+  width: 100%;
+  margin-top: 5px;
+  border: 2px solid grey;
+  outline: none;
+  font-size: .9rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+section .form-content form .btn-register{
+  display: block;
+  background-color: var(--light-black);
+  padding: 10px;
+  color: var(--white);
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+}

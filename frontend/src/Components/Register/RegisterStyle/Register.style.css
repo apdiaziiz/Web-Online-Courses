@@ -1,0 +1,27 @@
+
+.register-form .form-content {
+    width: 600px;
+}
+.register-form .form-content .sec-err {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.register-form .form-content .error-msg {
+    width: 90%;
+    background-color: rgb(212, 79, 79);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: none;
+}
+.register-form .form-content .success-msg {
+    width: 90%;
+    background-color: rgb(56, 153, 56);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}

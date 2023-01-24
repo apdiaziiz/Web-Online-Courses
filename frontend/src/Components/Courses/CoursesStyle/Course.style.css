@@ -1,0 +1,108 @@
+/* @import url('../../../App.css'); */
+* {
+    box-sizing: border-box;
+}
+.course_section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    padding-bottom: 30px;
+}
+.course {
+    width: 100%;
+    height: 100%;
+    padding: 0 8%;
+}
+.course_section .course .course_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+
+.course_section .course .course_content
+.box .course-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.course_section .course .course_content
+.box .course-title .tit {
+    font-size: 1.5rem;
+    font-family: 'Roboto Mono', monospace;
+    color: var(--full-myrtle-green);
+    padding-bottom: 10px;
+}
+.course_section .course .course_content .box .tit {
+    font-size: 1.5rem;
+    font-family: 'Roboto Mono', monospace;
+    color: var(--full-myrtle-green);
+    padding-bottom: 10px;
+}
+.course_section .course .course_content .box {
+    width: 30%;
+    height: 350px;
+    box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 10px;
+}
+.course_section .course .course_content .box .image_box {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.course_section .course .course_content .box .image_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.course_section .course .course_content .box .box_content {
+    padding: 15px 25px;
+    position: relative;
+    width: 100%;
+    height: 30%;
+}
+.course_section .course .course_content .box 
+.box_content .user_flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+}
+
+.course_section .course .course_content .box 
+.box_content .user_flex img{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+
+.course_section .course .course_content .box 
+.box_content .user_flex p {
+    width: 100%;
+}
+.filter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.filter input {
+    padding: 0 14px;
+    border-radius: 10px;
+    height: 50px;
+    width: 30%;
+    border: 1px solid grey;
+    outline: none;
+    box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.2);
+    margin-right: 70px;
+    font-size: .99rem;
+}

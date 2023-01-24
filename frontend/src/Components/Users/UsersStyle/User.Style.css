@@ -1,0 +1,39 @@
+@import url('../../../App.css');
+
+.users {
+    width: 100%;
+}
+.users .user_content {
+    padding: 0 8%;
+}
+.users .user_content .user_cards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,5fr);
+    margin-top: 2rem;
+}
+.users .user_content .user_cards .each_user{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.users .user_content .user_cards .each_user h3 {
+    padding-top: 10px;
+}
+.users .user_content .user_cards .each_user img{
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
+}
+
+.users .user_content .user_cards .each_user .user_info {
+    text-align: center;
+    padding: 20px;
+}
+.users .user_content .user_cards .each_user .user_info p {
+    font-size: .8rem;
+    padding-top: 10px;
+    text-align: justify;
+}

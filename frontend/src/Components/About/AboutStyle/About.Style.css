@@ -1,0 +1,57 @@
+@import url('../../ShowCase/ShowCaseStyle/ShowCase.style.css');
+
+.about_section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_section .about_content {
+    width: 100%;
+    padding: 0 8%;
+}
+.about_section .about_content .about_title {
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+    color: var(--light-black);
+}
+.about_section .about_content .content_color {
+    color: var(--fullgreen);
+}
+.about_section .about_content .contents {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+}
+.about_section .about_content .contents .right_content {
+    width: 50%;
+}
+.about_section .about_content .contents .right_content .lead {
+    line-height: 1.5rem;
+}
+.about_section .about_content .contents .left_content {
+    width: 400px;
+    height: 300px;
+}
+.about_section .about_content .contents .left_content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.about_section .about_content .contents .flex{
+    display: flex;
+    margin-top: 20px;
+  }
+.about_section .about_content .contents .flex .btn {
+    background-color: var(--fullgreen);
+    color: var(--white);
+    transition: .3s ease;
+}
+.about_section .about_content .contents .flex .btn:hover {
+    background-color: transparent;
+    color: var(--light-black);
+    border-color: var(--full-myrtle-green);
+}

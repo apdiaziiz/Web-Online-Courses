@@ -1,0 +1,66 @@
+@import url('../../../App.css');
+
+.login-form .form-content form .form-control {
+    margin-bottom: 30px;
+}
+
+.login-form .form-content .form-control input {
+    padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+    border: 2px solid grey;
+    outline: none;
+    font-size: .9rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  
+  }
+  .login-form .form-content .form-control .btn-login{
+    display: block;
+    background-color: var(--light-black);
+    padding: 10px;
+    color: var(--white);
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .login-form .form-content {
+    width: 400px;
+    height: 70vh;
+    margin: 0 auto;
+    color: #000;
+    box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.2);
+    /* background-color: var(--full-myrtle-green); */
+    border-radius: 10px;
+  }
+
+  .login-form .form-content form {
+    padding-top: 30px;
+  }
+  .login-form .form-content .form-title {
+    padding-bottom: 20px;
+  }
+  .login-form .form-content .error-msg {
+    width: 85%;
+    background-color: rgb(212, 79, 79);
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    margin: auto;
+  }
+  .login-form .form-content .form-control {
+    padding: 0 30px;
+    width: 100%;
+  }
+  .errr {
+    color: crimson;
+    font-size: .8rem;
+  }
+  .login-form .form-content .form-control p {
+    margin-top: 20px;
+  }
+  .back-reg {
+    color: blue;
+    text-decoration: underline;
+  }
